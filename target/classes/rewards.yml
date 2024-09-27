@@ -1,0 +1,8 @@
+easy:
+  - eco give {player} 600
+
+normal:
+  - eco give {player} 2500
+
+hard:
+  - eco give {player} 6000

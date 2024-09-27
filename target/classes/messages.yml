@@ -1,0 +1,7 @@
+prefix: "&d[RandomMath]&r "
+no_permission: "&fYou don't have permission to do this."
+correct_answer: "&d%player% &fanswered correctly and won a prize!"
+math_question: "&fSolve this: &d%question%"
+time_limit: "&fYou have &d%time% &fseconds to answer!"
+time_up: "&fTime is up! No more answers are accepted."
+reload_success: "&aConfiguration has been successfully reloaded!"

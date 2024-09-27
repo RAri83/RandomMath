@@ -1,0 +1,12 @@
+name: RandomMath
+version: '1.0'
+main: ir.arij83.randommath.RandomMath
+authors: [AriJ83]
+description: random math question plugin
+website: devs.craft-tech.xyz/AriJ83
+
+commands:
+  rmath:
+    description: "Main command for RandomMath"
+    usage: "/rmath <reload|author>"
+    permission: "rmath.admin"
