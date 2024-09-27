@@ -1,4 +1,0 @@
-pluginver: "1.0"
-
-question-time: 60 # Question's time per second
-question-dif: normal # Question's difficulty
