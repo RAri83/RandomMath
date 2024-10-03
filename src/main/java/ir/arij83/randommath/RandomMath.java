@@ -53,7 +53,7 @@ public class RandomMath extends JavaPlugin implements Listener {
     }
 
     private void loadConfig() {
-        questionInterval = getConfig().getInt("question-time", 60); // خواندن زمان از کانفیگ
+        questionInterval = getConfig().getInt("question-time", 60);
         difficulty = getConfig().getString("question-dif", "normal").toLowerCase();
     }
 
@@ -71,7 +71,7 @@ public class RandomMath extends JavaPlugin implements Listener {
             public void run() {
                 askMathQuestion();
             }
-        }.runTaskTimer(this, 0, questionInterval * 20L); // استفاده از زمان کانفیگ
+        }.runTaskTimer(this, 0, questionInterval * 20L);
     }
 
     private void askMathQuestion() {
@@ -106,8 +106,8 @@ public class RandomMath extends JavaPlugin implements Listener {
                 }
                 break;
             case "hard":
-                num1 = random.nextInt(100) + 50; // تولید اعداد بزرگتر
-                num2 = random.nextInt(100) + 50; // تولید اعداد بزرگتر
+                num1 = random.nextInt(100) + 50;
+                num2 = random.nextInt(100) + 50;
                 int complexOperator = random.nextInt(4);
                 switch (complexOperator) {
                     case 0:
